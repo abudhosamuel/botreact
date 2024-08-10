@@ -1,70 +1,70 @@
-# Getting Started with Create React App
+# Phase 2 Code Challenge: Bot Battlr
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Bot Battlr: Build and Manage Your Custom Bot Army with React
 
-## Available Scripts
+Description:
+Bot Battlr is an interactive web application developed using React that allows users to explore a diverse collection of bots, customize their own bot army, and strategically manage their fleet. Users can enlist bots into their army with a single click, remove them as needed, and permanently discharge bots from service. This project is designed to demonstrate proficiency in core React concepts, including component structure, state management, event handling, and data fetching from a mock backend using JSON Server.
 
-In the project directory, you can run:
+The app provides an engaging interface for practicing and enhancing React development skills while offering a fun and dynamic user experience. Whether you're a developer looking to sharpen your React skills or someone who enjoys building virtual armies, Bot Battlr offers a compelling and educational experience.
+## Authors
 
-### `npm start`
+- [@abudhosamuel](https://www.github.com/abudhosamuel)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Badges
 
-### `npm test`
+Add badges from somewhere like: [shields.io](https://shields.io/)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
+[![GPLv3 License](https://img.shields.io/badge/License-GPL%20v3-yellow.svg)](https://opensource.org/licenses/)
+[![AGPL License](https://img.shields.io/badge/license-AGPL-blue.svg)](http://www.gnu.org/licenses/agpl-3.0)
+![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
 
-### `npm run build`
+## Deployment
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+To deploy this project run
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+npm install
+```
 
-### `npm run eject`
+## Installation and Setup
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+To run the project locally, follow these steps:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+**Clone the repository:**
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+   git clone <https://github.com/abudhosamuel/Phase-2-Code-Challenge-Bot-Battlr>
+   cd bot-battlr
 
-## Learn More
+Set up the JSON server:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+The db.json file contains mock data for the bots. You can start the JSON server to serve this data:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+The server will run on http://localhost:8080 (or the port you configured).
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Start the React app:
 
-### Analyzing the Bundle Size
+In a separate terminal, start the React application:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+npm start server
+The React app will run on http://localhost:3000 by default.
 
-### Making a Progressive Web App
+Access the application:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Open your web browser and navigate to http://localhost:3000 to view the application.
 
-### Advanced Configuration
+## License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+[MIT](https://choosealicense.com/licenses/mit/)
 
-### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## Acknowledgements
 
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Acknowledgements
+React
+JSON Server
+Font Awesome
+Feel free to contribute to the project by submitting a pull request or opening an issue.
